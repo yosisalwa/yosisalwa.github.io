@@ -1,0 +1,170 @@
+/*style untuk selector - body */
+
+body{ 
+    background-color:aliceblue;
+    margin:0px;
+}
+
+/* style untuk heading - begin */
+ h1 {
+     color :lightskyblue;
+     font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-decoration: underline;
+     text-align: center;
+ }
+ h3 {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center
+ }
+
+ /*style untuk heading -end*/
+
+ /*style untuk link - begin */
+ a:link {
+     color :yellow;
+ }
+ a:hover {
+     color :gray;
+ }
+ a:visited {
+     color : black;
+ }
+ /*style untuk link -end */
+
+ /*style berbentuk class - begin*/
+ .container{
+     background-color: none;
+     margin: 10px auto;
+     overflow: auto;
+     width: 90%; 
+ }
+ .logo{
+     text-align: center;
+ }
+   
+ /*menu header - begin*/
+ .menu-header{
+     background-color: #333333;
+     border-radius: 8px;
+     text-align: center;
+     box-shadow :
+         0 3px 5px -1px   rgba(0, 0, 0, 0.2),
+         0 6px 10px 0     rgba(0, 0, 0, 0.14),
+         0 1px 18px 0     rgba(0, 0, 0, 0.12);
+ }
+ .menu-header li {
+     display: inline-block;
+ }
+ .menu-header a {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-transform: uppercase;
+     color:white;
+     text-decoration: none;
+     padding: 10px 20px;
+     letter-spacing: 1px;
+ }
+ .menu-header a:hover{
+     color:lightcoral;
+ }
+ .logo{
+     text-align: center;
+ }
+ .jumbotron{
+     background-color: white;
+     border:solid 1px white;
+     border-radius: 8px;
+     height: 300px;
+ }
+ .jumbotron h1{
+     margin: 20px 40px;
+     font-size: 24px;
+     color: yellow;
+ }
+ .jombotron h3 {
+     margin: 20px 40px;
+     font-size: 24px;
+     color: brown;
+ }
+ .foooter{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: grey;
+     background-color: burlywood; 
+     padding: 10px 0px;
+     font-size: 11px;
+     text-align: center;
+ }
+/*style berbentuk class - end*/
+/*menu header - end */
+
+/*card home - begin */
+.cardhome{
+    background-color:cornsilk;
+    width: 30%;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.cardhead{
+    border-bottom: solid 1px black;
+    padding:10px 0px;
+}    
+.cardhead h3{
+   margin: 0px;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.cardbody{
+    padding: 0px;
+    text-align: center;
+}
+.cardbody p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.cardflex{
+    display: flex;
+    justify-content: space-between;
+}
+/*card home - end*/
+/*news - begin*/
+.news-item{
+    background-color: none;
+    width:48%;
+    display: inline-block;
+    text-align: center;
+}
+.news-item h4{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.news-item h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.news-item p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.news-item a{
+    display: inline-block;
+    background-color:none;
+    color:lightseagreen;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration:black;
+}
+/*news-end*/
+
+.section{
+    background-color:cornsilk;
+}
+    
+    
