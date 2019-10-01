@@ -7,16 +7,20 @@ body{
 
 /* style untuk heading - begin */
  h1 {
-     color :lightskyblue;
+     color :#4baea0;
      font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-decoration: underline;
      text-align: center;
  }
  h3 {
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      text-align: center
  }
-
+ h4{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     font-size: 18px;
+ }
  /*style untuk heading -end*/
 
  /*style untuk link - begin */
@@ -27,7 +31,7 @@ body{
      color :gray;
  }
  a:visited {
-     color : black;
+     color :#f1f0cf;
  }
  /*style untuk link -end */
 
@@ -44,7 +48,7 @@ body{
    
  /*menu header - begin*/
  .menu-header{
-     background-color: #333333;
+     background-color: #f1f0cf;
      border-radius: 8px;
      text-align: center;
      box-shadow :
@@ -58,13 +62,13 @@ body{
  .menu-header a {
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      text-transform: uppercase;
-     color:white;
+     color:black;
      text-decoration: none;
      padding: 10px 20px;
      letter-spacing: 1px;
  }
  .menu-header a:hover{
-     color:lightcoral;
+     color:#ff8080;
  }
  .logo{
      text-align: center;
@@ -98,22 +102,22 @@ body{
 
 /*card home - begin */
 .cardhome{
-    background-color:cornsilk;
-    width: 30%;
-    height: 150px;
+    background-color:#b6e6bd;
+    width: 32%;
+    height: 200px;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: inline-block;
 }
 .cardhead{
-    border-bottom: solid 1px black;
+    border-bottom: solid 2px #ff8080;
     padding:10px 0px;
 }    
 .cardhead h3{
    margin: 0px;
    text-align: center;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+   color:#ff8080;
 }
 .cardbody{
     padding: 0px;
@@ -153,18 +157,19 @@ body{
 .news-item a{
     display: inline-block;
     background-color:none;
-    color:lightseagreen;
+    color:#f2a6a6;
     padding: 10px 10px;
     border-radius: 4px;
-    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-decoration:black;
+    text-decoration:none;
 }
 /*news-end*/
 
 .section{
     background-color:cornsilk;
 }
-    
+  
     
