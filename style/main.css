@@ -14,7 +14,7 @@ body{
  }
  h3 {
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     text-align: center
+     text-align: justify;
  }
  h4{
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -171,5 +171,18 @@ body{
 .section{
     background-color:cornsilk;
 }
-  
+/*content - begin*/
+.content{
+    margin: 10px,20px;
+}
+.content h3{
+    background-color: none;
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.content p{
+    margin: 10px;
+}
+/*content - end */
     
